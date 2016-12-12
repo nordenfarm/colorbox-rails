@@ -54,7 +54,7 @@
     });
   });
   
-  $(document).on('page:change', function() {
+  $(document).on('page:change turbolinks:load', function() {
       if($colorboxOverlay)
           $colorboxOverlay.appendTo("body");
 
